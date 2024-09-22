@@ -3,7 +3,7 @@ var context = game.getContext("2d");
 var boxSize = 32;
 var score = 0;
 // Перемещение змеи до 1000/100 = 10 раз в секунду
-var gameSpeed = 10;
+var gameSpeed = 1000;
 
 var snakeX = [];
 var snakeY = [];
